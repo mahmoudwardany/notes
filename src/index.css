@@ -1,0 +1,31 @@
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.myinput{
+  margin-top: 0,5% !important;
+  width: 70% !important;
+}
+.mynav{
+  margin-bottom: 10%;
+}
+@media  (min-width:461px) and (max-width:699px){
+  .myinput{
+    margin-top: 20% !important;
+    width: 90% !important;
+
+  }
+  .mynav{
+    margin-bottom: 15%  }
+}
+@media  (min-width:300px) and (max-width:461px){
+  .myinput{
+    margin-top: 50% !important;
+    width: 90% !important;
+  }
+  .mynav{
+    margin-bottom: 15% ;
+  }
+}
